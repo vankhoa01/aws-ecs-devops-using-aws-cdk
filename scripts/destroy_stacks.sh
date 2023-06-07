@@ -39,9 +39,9 @@ echo .
 echo .
 
 echo ==--------DestroyStacksStepByStep---------==
-cdk-local destroy *-LoadTesterScriptStack --force
-cdk-local destroy *-SampleFrontendFlaskStack --force
-cdk-local destroy *-SampleBackendFastapiStack --force
-cdk-local destroy *-VpcInfraStack --force
+# cdk-local destroy *-AdminPageAmplifyStack --force
+# cdk-local destroy *-AdminPageStack --force
+# cdk-local destroy *-VpcRdsStack --force
+# cdk-local destroy *-VpcInfraStack --force
 echo .
 echo .

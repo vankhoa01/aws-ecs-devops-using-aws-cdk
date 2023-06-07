@@ -42,9 +42,9 @@ echo .
 echo .
 
 echo ==--------DeployStacksStepByStep---------==
-cdk-local deploy *-VpcInfraStack --require-approval never
-cdk-local deploy *-SampleBackendFastapiStack --require-approval never
-cdk-local deploy *-SampleFrontendFlaskStack --require-approval never
-cdk-local deploy *-LoadTesterScriptStack --require-approval never
+# cdk-local deploy *-VpcInfraStack --require-approval never
+# cdk-local deploy *-VpcRdsStack --require-approval never
+cdk-local deploy *-AdminPageStack --require-approval never
+# cdk-local deploy *-AdminPageAmplifyStack --require-approval never
 echo .
 echo .
